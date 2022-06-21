@@ -37,7 +37,7 @@ COMMENT ON COLUMN
 COPY
     shipping
 FROM
-    'data/shipping.csv'
+    'https://filedn.com/lAv70NoRi0O8LpU8BzbIRXJ/datamodel/shipping.csv'
 DELIMITER
     ','
 CSV HEADER;

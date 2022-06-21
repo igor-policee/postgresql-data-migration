@@ -8,7 +8,7 @@
 
 > [SQL для создания таблицы лога и загрузки данных](src/0_shipping.sql)
 
-> [Данные для загрузки в таблицу лога](data/shipping.csv)
+> [Данные для загрузки в таблицу лога](https://filedn.com/lAv70NoRi0O8LpU8BzbIRXJ/data/shipping.csv)
  
 ## Целевая модель данных
 
