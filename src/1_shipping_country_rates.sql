@@ -1,4 +1,4 @@
--- 1.1. Создание таблицы "shipping_country_rates"
+-- Creating the "shipping_country_rates" table
 drop table if exists
     de.public.shipping_country_rates cascade;
 create table
@@ -9,7 +9,7 @@ create table
     shipping_country_base_rate numeric(14, 3)
 );
 
--- 1.2. Заполнение таблицы "shipping_country_rates"
+-- Filling in the "shipping_country_rates" table
 insert into
     de.public.shipping_country_rates (shipping_country, shipping_country_base_rate)
 select
