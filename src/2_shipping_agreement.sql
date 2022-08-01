@@ -1,4 +1,4 @@
--- 2.1. Создание таблицы "shipping_agreement"
+-- Creating the "shipping_agreement" table
 drop table if exists
     de.public.shipping_agreement cascade;
 create table
@@ -10,7 +10,7 @@ create table
     agreement_commission numeric (14, 2)
 );
 
--- 2.2. Заполнение таблицы "shipping_agreement"
+-- Filling in the "shipping_agreement" table
 insert into
     de.public.shipping_agreement (agreementid, agreement_number, agreement_rate, agreement_commission)
 select
