@@ -1,4 +1,4 @@
--- 5.1. Создание таблицы "shipping_status"
+-- Creating the "shipping_status" table
 drop table if exists
     de.public.shipping_status cascade;
 create table
@@ -11,7 +11,7 @@ create table
     shipping_end_fact_datetime timestamp
 );
 
--- 5.2. Заполнение таблицы "shipping_status"
+-- Filling in the "shipping_status" table
 insert into
     de.public.shipping_status
     (shippingid, status, state, shipping_start_fact_datetime, shipping_end_fact_datetime)
