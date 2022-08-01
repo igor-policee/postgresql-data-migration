@@ -1,4 +1,4 @@
--- 4.1. Создание таблицы "shipping_info"
+-- Creating the "shipping_info" table
 drop table if exists
     de.public.shipping_info cascade;
 create table
@@ -16,7 +16,7 @@ create table
     foreign key (agreementid) references de.public.shipping_agreement(agreementid)
 );
 
--- 4.2. Заполнение таблицы "shipping_info"
+-- Filling in the "shipping_info" table
 insert into
     de.public.shipping_info
     (shippingid, vendorid, payment_amount, shipping_plan_datetime, transfer_type_id, shipping_country_id, agreementid)
