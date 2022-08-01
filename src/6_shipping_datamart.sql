@@ -1,4 +1,4 @@
--- 6.1. Создание и заполнение представления "shipping_datamart"
+-- Creating and filling in the "shipping_datamart" view
 create or replace view
     de.public.shipping_datamart as
 select
