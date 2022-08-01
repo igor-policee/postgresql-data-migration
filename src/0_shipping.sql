@@ -1,4 +1,4 @@
--- 0.1. Создание таблицы "shipping"
+-- Creating the "shipping" table
 drop table if exists
     de.public.shipping cascade;
 
@@ -33,7 +33,7 @@ CREATE INDEX
 COMMENT ON COLUMN
     public.shipping.shippingid is 'id of shipping of sale';
 
--- 0.2. Загрузка данных из внешнего источника shipping.csv в таблицу "shipping" (с помощью скрипта или используя клиент)
+-- Loading data from an external shipping.csv source into the "shipping" table (using a script or using a client)
 COPY
     shipping
 FROM
