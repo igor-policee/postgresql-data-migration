@@ -2,7 +2,7 @@
 
 ## Схема текущей модели данных
 
-![Схема текущей модели данных](datamodel/initial_datamodel_er.png)
+![Схема текущей модели данных](img/initial_datamodel_er.png)
 
 ## Описание полей таблицы лога `public.shipping`
 
