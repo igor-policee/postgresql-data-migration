@@ -1,4 +1,4 @@
--- 3.1. Создание таблицы "shipping_transfer"
+-- Creating the "shipping_transfer" table
 drop table if exists
     de.public.shipping_transfer cascade;
 create table
@@ -10,7 +10,7 @@ create table
     shipping_transfer_rate numeric(14, 3)
 );
 
--- 3.2. Заполнение таблицы "shipping_agreement"
+-- Filling in the "shipping_agreement" table
 insert into
     de.public.shipping_transfer (transfer_type, transfer_model, shipping_transfer_rate)
 select
